@@ -1,0 +1,15 @@
+﻿<Window x:Name="TestGui" x:Class="TestGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Launch Command" Height="350" Width="525" WindowStyle="ToolWindow" ResizeMode="NoResize">
+    <Grid>
+        <Button x:Name="btnCommandUp" Content="Up" HorizontalAlignment="Left" Margin="92,18,0,0" VerticalAlignment="Top" Width="75" PreviewMouseLeftButtonDown="btnCommandUp_MouseDown" PreviewMouseLeftButtonUp="btnCommand_MouseUp" />
+        <Button x:Name="btnCommandDown" Content="Down" HorizontalAlignment="Left" Margin="92,95,0,0" VerticalAlignment="Top" Width="75" PreviewMouseLeftButtonDown="btnCommandDown_MouseDown" PreviewMouseLeftButtonUp="btnCommand_MouseUp"/>
+        <Button x:Name="btnCommandLeft" Content="Left" HorizontalAlignment="Left" Margin="12,58,0,0" VerticalAlignment="Top" Width="75" PreviewMouseLeftButtonDown="btnCommandLeft_MouseDown" PreviewMouseLeftButtonUp="btnCommand_MouseUp"/>
+        <Button x:Name="btnCommandRight" Content="Right" HorizontalAlignment="Left" Margin="173,58,0,0" VerticalAlignment="Top" Width="75" PreviewMouseLeftButtonDown="btnCommandRight_MouseDown" PreviewMouseLeftButtonUp="btnCommand_MouseUp"/>
+        <Button x:Name="btnCommandLedOn" Content="LED On" HorizontalAlignment="Left" Margin="43,178,0,0" VerticalAlignment="Top" Width="75" Background="#FF8FDE6A" Click="btnCommandLedOn_Click"/>
+        <Button x:Name="btnCommandLedOff" Content="LED off" HorizontalAlignment="Left" Margin="144,178,0,0" VerticalAlignment="Top" Width="75" Background="#FF767676" Click="btnCommandLedOff_Click"/>
+        <Button x:Name="btnCommandFire" Content="FIRE!" HorizontalAlignment="Left" Margin="92,58,0,0" VerticalAlignment="Top" Width="75" Background="Red" Click="btnCommandFire_Click"/>
+
+    </Grid>
+</Window>

@@ -46,7 +46,7 @@ namespace me.joshbennett
             dev1.Removed += DeviceRemovedHandler;
             dev1.MonitorDeviceEvents = true;
 
-            dev1.CloseDevice();
+            //dev1.CloseDevice();
         }
 
         private void initCommands()
@@ -84,42 +84,42 @@ namespace me.joshbennett
         }
 
         #region commands
-        private void commandStop()
+        public void commandStop()
         {
             dev1.Write(this.STOP);
         }
 
-        private void commandLeft()
+        public void commandLeft()
         {
             dev1.Write(this.LEFT);
         }
 
-        private void commandRight()
+        public void commandRight()
         {
             dev1.Write(this.RIGHT);
         }
 
-        private void commandUp()
+        public void commandUp()
         {
             dev1.Write(this.UP);
         }
 
-        private void commandDown()
+        public void commandDown()
         {
             dev1.Write(this.DOWN);
         }
 
-        private void commandFire()
+        public void commandFire()
         {
             dev1.Write(this.FIRE);
         }
 
-        private void commandLedOn()
+        public void commandLedOn()
         {
             dev1.Write(this.LED_ON);
         }
 
-        private void commandLedOff()
+        public void commandLedOff()
         {
             dev1.Write(this.LED_OFF);
         }
