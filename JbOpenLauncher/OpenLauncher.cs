@@ -77,10 +77,11 @@ namespace me.joshbennett
 
             this.LED_ON = new byte[9];
             this.LED_ON[1] = 3;
-            this.LED_ON[2] = 1;
+            this.LED_ON[2] = 0;
 
             this.LED_OFF = new byte[9];
             this.LED_OFF[1] = 3;
+            this.LED_OFF[1] = 1;
         }
 
         #region commands

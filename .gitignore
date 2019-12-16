@@ -146,3 +146,5 @@ $RECYCLE.BIN/
 
 # Mac crap
 .DS_Store
+
+.vs/JbOpenLauncher/v16/Server/sqlite3/
